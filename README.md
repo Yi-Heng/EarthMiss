@@ -14,7 +14,11 @@ pip install --upgrade git+https://github.com/Z-Zheng/ever.git
 The EarthMiss dataset is released at [Zenodo](https://zenodo.org/records/17231107) and [Baidu Drive](https://pan.baidu.com/s/1fBf4SUMssbY-gH9qPDZyrw?pwd=jfsq) Code: `jfsq`
 
 ## Test
-📥 [Click here to download the pretrained checkpoint](https://drive.google.com/file/d/185woe6jPZEoBSjDFOFEXVsQQxiFHpVkV/view?usp=drive_link)
+1. Download the dataset and update the `root_path` in `./config/metadata/EarthMiss.py` to your local dataset directory.  
+2. Download the pretrained checkpoint:  
+   📥 [Google Drive](https://drive.google.com/file/d/185woe6jPZEoBSjDFOFEXVsQQxiFHpVkV/view?usp=drive_link)  
+
+3. Run evaluation:
 ```bash
 sh ./scripts/eval.sh
 ```
