@@ -15,7 +15,7 @@ The EarthMiss dataset is released at [Zenodo](https://zenodo.org/records/1723110
 ## Test and Train
 1. Download the dataset and update the `root_path` in `./config/metadata/EarthMiss.py` to your local dataset directory.  
 2. Download the pretrained checkpoint:  
-   📥 [Google Drive](https://drive.google.com/file/d/185woe6jPZEoBSjDFOFEXVsQQxiFHpVkV/view?usp=drive_link)  
+   📥 [Google Drive](https://drive.google.com/file/d/1NS9_Dj-cM7JFMC3KGhkQFRAiqXLPOAky/view?usp=drive_link)  
 
 3. Run evaluation:
 ```bash
