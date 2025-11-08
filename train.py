@@ -26,7 +26,7 @@ def evaluate_cls_fn(self, test_dataloader, config=None):
             img = img.to(torch.device('cuda'))
             y_true = gt['cls']
             y_true = y_true.cpu()
-            if self.config.get('slide_test', False):
+            if config.get('slide_test', False):
                 pred = slide_inference(self.model,img,gt, config['slide_test'])
             else:
                 pred = self.model(img,gt)
