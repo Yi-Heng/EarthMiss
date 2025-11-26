@@ -6,7 +6,7 @@ sar_std_v = [68.20405016]
 
 root_path = "/data/yhzhou23/data/EarthM3/"
 
-# 城市列表
+# city list
 train_cities = [
     "America-Eugene",
     "America-Louisville",
